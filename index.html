@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Team page showcasing our members" />
+    <title>Meet Our Team | Company Name</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Preload React for better performance -->
+    <link rel="preload" href="https://unpkg.com/react@18/umd/react.development.js" as="script">
+    <link rel="preload" href="https://unpkg.com/react-dom@18/umd/react-dom.development.js" as="script">
+    <!-- Add favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <!-- Load React first -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- Load components -->
+    <script type="text/babel" src="StudentCard.js"></script>
+    <script type="text/babel" src="app.js"></script>
+  </body>
+</html>
